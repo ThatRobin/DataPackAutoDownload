@@ -2,9 +2,9 @@ package io.github.thatrobin.dpad.utils;
 
 public class ResourcePackData {
 
-    private String url;
+    private final String url;
     private String parentPack;
-    private boolean required;
+    private final boolean required;
 
     public ResourcePackData(String url, boolean required) {
         this.url = url;
