@@ -4,12 +4,13 @@
     "package": "io.github.thatrobin.dpad.mixins",
     "compatibilityLevel": "JAVA_17",
     "mixins": [
+        "FileResourcePackProviderMixin",
         "MinecraftServerMixin",
         "PlayerManagerMixin",
         "ResourcePackProfileMixin"
     ],
     "client": [
-        "IntegratedServerLoaderMixin"
+        "SplashOverlayMixin"
     ],
     "injectors": {
         "defaultRequire": 1
